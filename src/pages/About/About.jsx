@@ -1,16 +1,15 @@
 import { Link } from "react-router-dom";
 
-function Home() {
+function About() {
   return (
     <div>
       <nav>
         <Link to="/">Accueil</Link>
         <Link to="/about">À propos</Link>
-        <Link to="/housing">Logement</Link>
       </nav>
-      <h1>Page d'accueil 🏡</h1>
+      <h1>Page à propos</h1>
     </div>
   );
 }
 
-export default Home;
+export default About;
