@@ -1,0 +1,77 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  &__menu-item-link {
+    color: $salmon-color;
+    font-weight: 500;
+    font-size: 24px;
+  }
+}
+
+.banner {
+  &__text {
+    color: $white-color;
+    font-weight: 500;
+    font-size: 48px;
+  }
+}
+
+.error {
+  &__name {
+    color: $salmon-color;
+    font-weight: 700;
+    font-size: 288px;
+  }
+
+  &__description {
+    color: $salmon-color;
+    font-weight: 500;
+    font-size: 36px;
+  }
+
+  &__homepage-link {
+    color: $salmon-color;
+    font-weight: 500;
+    font-size: 18px;
+  }
+}
+
+.footer {
+  &__text {
+    font-weight: 500;
+    font-size: 24px;
+    color: $white-color;
+  }
+}
+
+.card {
+  &__title {
+    font-size: 18px;
+    font-weight: 500;
+    color: $white-color;
+  }
+}
+
+.collapse {
+  &__title {
+    font-weight: 500;
+    font-size: 24px;
+    color: $white-color;
+  }
+
+  &__content {
+    font-weight: 400;
+    font-size: 18px;
+    color: $salmon-color;
+  }
+}
+
+.slideshow {
+  &__photo-index {
+    color: $white-color;
+    font-weight: 500;
+    font-size: 18px;
+  }
+}

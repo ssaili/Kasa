@@ -1,15 +1,20 @@
-import { Link } from "react-router-dom";
+import Header from "../../components/Header";
+import Banner from "../../components/Banner";
+import bannerBackground from "../../assets/banner-background-homepage.png";
+import Footer from "../../components/Footer";
+import CardsContainer from "../../components/CardsContainer";
 
 function Home() {
   return (
-    <div>
-      <nav>
-        <Link to="/">Accueil</Link>
-        <Link to="/about">À propos</Link>
-        <Link to="/housing">Logement</Link>
-      </nav>
-      <h1>Page d'accueil 🏡</h1>
-    </div>
+    <>
+      <Header />
+      <Banner
+        bannerBackground={bannerBackground}
+        bannerText="Chez vous, partout et ailleurs"
+      />
+      <CardsContainer />
+      <Footer />
+    </>
   );
 }
 

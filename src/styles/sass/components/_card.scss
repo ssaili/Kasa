@@ -1,0 +1,18 @@
+.card {
+  position: relative;
+
+  &__background {
+    width: 340px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: brightness(70%);
+  }
+
+  &__title {
+    position: absolute;
+    width: 240px;
+    bottom: 20px;
+    left: 20px;
+  }
+}

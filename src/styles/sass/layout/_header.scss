@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 100px;
+  margin-top: 50px;
+
+  &__menu {
+    display: flex;
+    gap: 57px;
+  }
+
+  &__menu-item {
+    list-style-type: none;
+  }
+
+  &__menu-item-link {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

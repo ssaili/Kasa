@@ -1,0 +1,33 @@
+.slideshow {
+  padding-inline: 100px;
+  position: relative;
+
+  &__background {
+    width: 100%;
+    max-height: 415px;
+    object-fit: cover;
+    border-radius: 25px;
+    filter: brightness(90%);
+  }
+
+  &__left-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 6%;
+  }
+
+  &__right-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 6%;
+  }
+
+  &__photo-index {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 7%;
+  }
+}

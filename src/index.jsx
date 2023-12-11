@@ -1,3 +1,4 @@
+import "./styles/sass/main.scss";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -16,7 +17,7 @@ const router = createBrowserRouter([
     element: <About />,
   },
   {
-    path: "/housing",
+    path: "/housing/:housingIndex",
     element: <Housing />,
   },
   {

@@ -1,0 +1,13 @@
+.footer {
+  background-color: $black-color;
+  height: 209px;
+  text-align: center;
+
+  &__logo {
+    margin-top: 60px;
+  }
+
+  &__text {
+    margin-top: 60px;
+  }
+}
