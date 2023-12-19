@@ -7,11 +7,17 @@
     object-fit: cover;
     border-radius: 10px;
     filter: brightness(70%);
+
+    @media (max-width: 439px) {
+      width: 280px;
+      height: 280px;
+    }
   }
 
   &__title {
     position: absolute;
     width: 240px;
+    height: 44px;
     bottom: 20px;
     left: 20px;
   }

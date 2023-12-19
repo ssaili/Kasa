@@ -8,4 +8,14 @@
   height: 100%;
   border-radius: 25px;
   margin-inline: 100px;
+
+  @media (max-width: 439px) {
+    grid-template-columns: repeat(auto-fill, 280px);
+  }
+
+  @media (max-width: 767px) {
+    background-color: $white-color;
+    gap: 10px;
+    padding-block: 10px;
+  }
 }

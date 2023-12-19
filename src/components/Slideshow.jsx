@@ -49,7 +49,7 @@ function Slideshow({ housing }) {
 }
 
 Slideshow.propTypes = {
-  housing: PropTypes.array.isRequired,
+  housing: PropTypes.object.isRequired,
 };
 
 export default Slideshow;

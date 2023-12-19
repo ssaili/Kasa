@@ -11,7 +11,7 @@ function Collapse({ collapseTitle, children }) {
   }
 
   return (
-    <>
+    <div>
       <div className="collapse" onClick={toggle}>
         <p className="collapse__title">{collapseTitle}</p>
         {open ? (
@@ -21,7 +21,7 @@ function Collapse({ collapseTitle, children }) {
         )}
       </div>
       {open ? null : <div className="collapse__content">{children}</div>}
-    </>
+    </div>
   );
 }
 

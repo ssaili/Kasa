@@ -5,9 +5,24 @@
   padding-inline: 100px;
   margin-top: 50px;
 
+  @media (max-width: 767px) {
+    padding-inline: 20px;
+    margin-top: 10px;
+  }
+
+  img {
+    @media (max-width: 767px) {
+      width: 145px;
+    }
+  }
+
   &__menu {
     display: flex;
     gap: 57px;
+
+    @media (max-width: 767px) {
+      gap: 26px;
+    }
   }
 
   &__menu-item {
@@ -16,6 +31,7 @@
 
   &__menu-item-link {
     text-decoration: none;
+
     &:hover {
       text-decoration: underline;
     }

@@ -9,5 +9,12 @@
 
   &__text {
     margin-top: 60px;
+    @media (max-width: 767px) {
+      margin-top: 20px;
+      position: absolute;
+      width: 134px;
+      right: 50%;
+      transform: translateX(50%);
+    }
   }
 }
