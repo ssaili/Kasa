@@ -1,9 +1,11 @@
 .banner {
   padding-inline: 100px;
   position: relative;
+  margin-bottom: 50px;
 
   @media (max-width: 767px) {
     padding-inline: 20px;
+    margin-bottom: 30px;
   }
 
   &__background {
@@ -14,7 +16,7 @@
     filter: brightness(70%);
 
     @media (max-width: 767px) {
-      height: 110px;
+      height: 111px;
     }
   }
 
@@ -25,10 +27,7 @@
     transform: translate(-50%, -50%);
 
     @media (max-width: 767px) {
-      width: 217px;
-    }
-
-    @media (max-width: 424px) {
+      width: 220px;
       left: 10%;
       transform: translateY(-50%);
     }

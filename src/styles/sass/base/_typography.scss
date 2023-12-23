@@ -31,18 +31,30 @@
     color: $salmon-color;
     font-weight: 700;
     font-size: 288px;
+
+    @media (max-width: 767px) {
+      font-size: 96px;
+    }
   }
 
   &__description {
     color: $salmon-color;
     font-weight: 500;
     font-size: 36px;
+
+    @media (max-width: 767px) {
+      font-size: 18px;
+    }
   }
 
   &__homepage-link {
     color: $salmon-color;
     font-weight: 500;
     font-size: 18px;
+
+    @media (max-width: 767px) {
+      font-size: 14px;
+    }
   }
 }
 
@@ -71,12 +83,20 @@
     font-weight: 500;
     font-size: 24px;
     color: $white-color;
+
+    @media (max-width: 767px) {
+      font-size: 13px;
+    }
   }
 
   &__content {
     font-weight: 400;
     font-size: 18px;
     color: $salmon-color;
+
+    @media (max-width: 767px) {
+      font-size: 12px;
+    }
   }
 }
 
@@ -85,5 +105,31 @@
     color: $white-color;
     font-weight: 500;
     font-size: 18px;
+  }
+}
+
+.housing-description {
+  &__title {
+    font-weight: 500;
+    font-size: 36px;
+    color: $salmon-color;
+  }
+
+  &__location {
+    font-weight: 500;
+    font-size: 18px;
+    color: $salmon-color;
+  }
+
+  &__host-name {
+    font-weight: 500;
+    font-size: 18px;
+    color: $salmon-color;
+  }
+
+  &__badges {
+    span {
+      color: $white-color;
+    }
   }
 }

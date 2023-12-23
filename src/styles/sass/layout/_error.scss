@@ -3,5 +3,11 @@
   display: flex;
   flex-direction: column;
   gap: 100px;
-  margin-block: 50px;
+  margin-block: 100px;
+
+  &__description {
+    @media (max-width: 767px) {
+      margin-inline: 50px;
+    }
+  }
 }

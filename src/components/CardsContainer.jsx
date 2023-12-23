@@ -12,6 +12,7 @@ function CardsContainer() {
           cardTitle={housing.title}
         />
       ))}
+      <div className="card__hidden"></div>
     </div>
   );
 }

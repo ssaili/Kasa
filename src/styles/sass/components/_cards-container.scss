@@ -1,21 +1,18 @@
 .cards-container {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(auto-fill, 340px);
-  gap: 30px;
-  padding-block: 50px;
   background-color: $grey-color;
   height: 100%;
   border-radius: 25px;
   margin-inline: 100px;
-
-  @media (max-width: 439px) {
-    grid-template-columns: repeat(auto-fill, 280px);
-  }
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 50px;
 
   @media (max-width: 767px) {
     background-color: $white-color;
-    gap: 10px;
-    padding-block: 10px;
+    padding-top: 0;
+    margin-inline: 20px;
+    row-gap: 30px;
   }
 }

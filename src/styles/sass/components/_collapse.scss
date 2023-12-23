@@ -1,5 +1,6 @@
 .collapse {
   margin-inline: 210px;
+  margin-bottom: 50px;
   padding-inline: 20px;
   height: 52px;
   display: flex;
@@ -8,10 +9,23 @@
   border-radius: 5px;
   background-color: $salmon-color;
 
+  @media (max-width: 767px) {
+    margin-inline: 20px;
+    margin-bottom: 30px;
+  }
+
   &__content {
+    margin-top: -50px;
+    margin-bottom: 50px;
     margin-inline: 210px;
     padding: 20px;
     border-radius: 0px 0px 5px 5px;
     background-color: $grey-color;
+
+    @media (max-width: 767px) {
+      margin-inline: 20px;
+      margin-top: -30px;
+      margin-bottom: 30px;
+    }
   }
 }
