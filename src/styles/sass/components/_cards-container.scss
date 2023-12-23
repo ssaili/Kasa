@@ -3,7 +3,8 @@
   height: 100%;
   border-radius: 25px;
   margin-inline: 100px;
-  padding-top: 50px;
+  margin-bottom: 50px;
+  padding-block: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -11,7 +12,8 @@
 
   @media (max-width: 767px) {
     background-color: $white-color;
-    padding-top: 0;
+    padding-block: 0;
+    margin-bottom: 0;
     margin-inline: 20px;
     row-gap: 30px;
   }

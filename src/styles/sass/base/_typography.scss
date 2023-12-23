@@ -113,23 +113,40 @@
     font-weight: 500;
     font-size: 36px;
     color: $salmon-color;
+
+    @media (max-width: 767px) {
+      font-size: 18px;
+    }
   }
 
   &__location {
     font-weight: 500;
     font-size: 18px;
     color: $salmon-color;
+
+    @media (max-width: 767px) {
+      font-size: 14px;
+    }
   }
 
   &__host-name {
     font-weight: 500;
     font-size: 18px;
     color: $salmon-color;
+
+    @media (max-width: 767px) {
+      font-size: 12px;
+    }
   }
 
   &__badges {
     span {
       color: $white-color;
+      font-size: 14px;
+
+      @media (max-width: 767px) {
+        font-size: 10px;
+      }
     }
   }
 }
