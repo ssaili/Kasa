@@ -9,9 +9,9 @@ import HousingDescription from "../../components/HousingDescription";
 function Housing() {
   const { housingIndex } = useParams();
 
-  if (housingIndex >= housings.length) {
-    return <Error />;
-  } else {
+  let numberRegex = /^(([1-9][0-9]*)|([0]))$/;
+
+  if (numberRegex.test(housingIndex) && housingIndex < housings.length) {
     return (
       <>
         <Header />
@@ -20,6 +20,8 @@ function Housing() {
         <Footer />
       </>
     );
+  } else {
+    return <Error />;
   }
 }
 
